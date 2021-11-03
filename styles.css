@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;700&display=swap');
+
 :root {
-
-
+    --blue-color: #2baaec;
+    --green-color: #25e6c8;
 }
 
 * {
@@ -10,7 +12,13 @@
 }
 
 body, html {
+    font-family: 'Roboto', sans-serif;
+    color: #626262;
+}
 
+h1, h2, h3, h4, a {
+    font-family: 'Roboto Slab', serif;
+    color: #363636;
 }
 
 .container {
@@ -19,6 +27,15 @@ body, html {
     display: flex;
     justify-content: space-between;
     align-items: center;    
+}
+
+.btn {
+    padding: 0.7rem 2rem;
+    border: none;
+    border-radius: 0.8rem;
+    background-color: transparent;
+    font-weight: bolder;
+    cursor: pointer;
 }
 
 
@@ -36,8 +53,8 @@ body, html {
 
 .fa-clock {
     margin-right: 0.5rem;
-    color: #2baaec;
     font-size: small;
+    color: var(--blue-color)
 }
 
 .work-hours p {
@@ -52,12 +69,12 @@ body, html {
 }
 
 .social-media a {
-    color: #2baaec;
-    font-size: x-small;
+    font-size: small;
+    color: var(--blue-color)
 }
 
 .social-media a:hover {
-    color: #25e6c8;
+    color: var(--green-color)
 }
 /* TOP MENU END */
 
@@ -65,7 +82,7 @@ body, html {
 
 /* MAIN MENU START */
 nav {
-    padding: 0.5rem 0;
+    padding: 1rem 0;
 }
 
 .logo {
@@ -73,7 +90,6 @@ nav {
 }
 
 .fa-bars {
-    color: #363636;
     font-size: 25px;
 }
 
@@ -85,9 +101,51 @@ nav {
 
 .nav-links a{
     text-decoration: none;
-    color: #363636
 }
 /* MAIN MENU END */
+
+
+
+/* SHOWCASE START  */
+.showcase {
+    background-color: #DEDEDE;
+    padding-top: 2rem;
+}
+
+.showcase .container {
+    flex-direction: column;
+}
+
+.showcase-text {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.first-person {
+    height: calc(50vh - 72px);
+}
+
+h1 {
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+}
+
+.showcase p {
+    display: none;
+}
+
+.btn-primary {
+    background-color: var(--blue-color);
+    color: white;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: var(--green-color);
+}
+
 
 
 
@@ -98,6 +156,7 @@ nav {
 
     .container {
         width: 80%;
+        max-width: 1140px;
     }
 
     .top-menu {
@@ -119,6 +178,34 @@ nav {
 
     .fa-bars {
         display: none;
+    }
+
+    .showcase .container {
+        flex-direction: row-reverse;
+    }
+
+    .showcase-text {
+        text-align: start;
+    }
+
+    .first-person {
+        height: calc(90vh - 135.2px);
+        margin-right: 5rem;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .showcase p {
+        display: block;
+        font-size: small;
+        margin-bottom: 2rem;
+    }
+
+    .btn-primary {
+        width: initial;
     }
 
 }
