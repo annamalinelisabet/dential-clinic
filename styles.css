@@ -266,7 +266,7 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-.card:hover > .circle {
+.card:hover .circle {
     box-shadow: 2px 2px 10px 3px #BFBFBF;
     background-color: var(--blue-color);
     box-shadow: 0 0 0 6px #2ba8ec50;
