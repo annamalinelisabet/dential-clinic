@@ -85,7 +85,7 @@ h4 {
 
 
 
-/* TOP MENU START */
+/*--- TOP MENU START ---*/
 .top-menu {
     border: 1px solid #BFBFBF;
     padding: 0.5rem 0;
@@ -116,11 +116,11 @@ h4 {
 .social-media a:hover {
     color: var(--green-color)
 }
-/* TOP MENU END */
+/*--- TOP MENU END ---*/
 
 
 
-/* MAIN MENU START */
+/*--- MAIN MENU START ---*/
 nav {
     padding: 1rem 0;
 }
@@ -137,11 +137,11 @@ nav {
     list-style: none;
     display: none;
 }
-/* MAIN MENU END */
+/*--- MAIN MENU END ---*/
 
 
 
-/* SHOWCASE START  */
+/*--- SHOWCASE START  ---*/
 .showcase {
     background-color: #DEDEDE;
     padding-top: 2rem;
@@ -177,11 +177,11 @@ h1 {
 .btn-primary:hover {
     background-color: var(--green-color);
 }
-/* SHOWCASE END */
+/*--- SHOWCASE END ---*/
 
 
 
-/* ABOUT US START */
+/*--- ABOUT US START ---*/
 #blue {
     color: var(--blue-color);
 }
@@ -204,10 +204,10 @@ h1 {
 .second-person {
     display: none;
 }
-/* ABOUT US END */
+/*--- ABOUT US END ---*/
 
 
-/* SERVICES START */
+/*--- SERVICES START ---*/
 .services {
     background-color: #F7F7F7;
     padding: 4rem 0;
@@ -271,11 +271,11 @@ h1 {
     background-color: var(--blue-color);
     box-shadow: 0 0 0 6px #2ba8ec50;
 }
-/* SERVICES END */
+/*--- SERVICES END ---*/
 
 
 
-/* FOOTER START */
+/*--- FOOTER START ---*/
 .book {
     background-color: var(--blue-color);
     opacity: 80%;
@@ -322,13 +322,13 @@ h1 {
     color: #F3FBFF;
     opacity: 60%;
 }
-/* FOOTER END */
+/*--- FOOTER END ---*/
 
 
 
 
 
-/* MEDIA QUERIES 1/2 */
+/*--- MEDIA QUERIES 1/2 ---*/
 @media (min-width: 630px) {   
 
     .showcase .container {
@@ -347,7 +347,7 @@ h1 {
     
 }
 
-/* MEDIA QUERIES 2/2 */
+/*--- MEDIA QUERIES 2/2 ---*/
 @media (min-width: 768px) {
     
     .container {
